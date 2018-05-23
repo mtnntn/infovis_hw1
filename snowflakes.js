@@ -4,6 +4,14 @@ var snowflake_shapes = [
     "M32.186,18.794l-7.726,2.067l-2.463-1.422l2.627-0.703c0.269-0.071,0.426-0.346,0.354-0.612 c-0.072-0.266-0.345-0.426-0.612-0.354l-3.594,0.962l-2.458-1.418l2.46-1.42l3.592,0.963c0.044,0.012,0.087,0.017,0.13,0.017 c0.221,0,0.424-0.147,0.483-0.371c0.07-0.267-0.087-0.541-0.354-0.612l-2.627-0.704l2.465-1.422l7.724,2.069 c0.043,0.012,0.086,0.017,0.129,0.017c0.221,0,0.423-0.147,0.481-0.371c0.072-0.267-0.086-0.541-0.354-0.612l-6.757-1.81 l3.019-1.742l2.948,0.791c0.044,0.012,0.087,0.017,0.13,0.017c0.221,0,0.424-0.147,0.483-0.371c0.07-0.267-0.087-0.541-0.354-0.612 l-1.982-0.532l2.197-1.269c0.238-0.138,0.32-0.444,0.184-0.683c-0.139-0.24-0.444-0.321-0.684-0.183l-2.195,1.268l0.529-1.979 c0.072-0.267-0.086-0.541-0.354-0.612c-0.269-0.069-0.541,0.087-0.613,0.354l-0.789,2.947l-3.018,1.743l1.811-6.755 c0.071-0.267-0.086-0.541-0.354-0.612c-0.271-0.07-0.541,0.086-0.613,0.354l-2.068,7.721l-2.465,1.423l0.705-2.626 c0.07-0.267-0.088-0.541-0.354-0.612c-0.271-0.07-0.54,0.087-0.613,0.354l-0.963,3.592l-2.458,1.416V13.61l2.63-2.631 c0.195-0.195,0.195-0.512,0-0.707c-0.194-0.195-0.512-0.195-0.707,0l-1.923,1.924V9.349l5.651-5.653 c0.195-0.195,0.195-0.512,0-0.707c-0.194-0.195-0.512-0.195-0.707,0l-4.944,4.946V4.451l2.158-2.158 c0.194-0.195,0.194-0.512,0-0.707c-0.195-0.195-0.513-0.195-0.707,0l-1.451,1.451V0.5c0-0.276-0.226-0.5-0.5-0.5 c-0.275,0-0.5,0.224-0.5,0.5v2.536l-1.452-1.451c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707l2.158,2.158v3.484 L11.87,2.988c-0.195-0.195-0.512-0.195-0.707,0c-0.195,0.195-0.195,0.512,0,0.707l5.652,5.653v2.847l-1.923-1.924 c-0.195-0.195-0.514-0.195-0.707,0c-0.195,0.195-0.195,0.512,0,0.707l2.63,2.631v2.839l-2.459-1.42l-0.963-3.592 c-0.072-0.267-0.345-0.424-0.613-0.354c-0.267,0.071-0.425,0.346-0.354,0.612l0.703,2.626l-2.465-1.423L8.597,5.176 C8.525,4.909,8.253,4.752,7.984,4.822C7.716,4.893,7.559,5.168,7.629,5.434l1.812,6.755l-3.02-1.743L5.633,7.499 c-0.07-0.268-0.342-0.424-0.611-0.354C4.754,7.216,4.597,7.491,4.667,7.757l0.531,1.981L3.003,8.47 C2.766,8.334,2.458,8.414,2.32,8.653C2.181,8.892,2.263,9.198,2.503,9.336l2.197,1.269l-1.984,0.532 c-0.267,0.071-0.424,0.346-0.354,0.612c0.061,0.224,0.264,0.371,0.481,0.371c0.045,0,0.088-0.005,0.132-0.017l2.948-0.791 l3.019,1.742l-6.757,1.81c-0.27,0.071-0.428,0.346-0.354,0.612c0.061,0.224,0.262,0.371,0.482,0.371 c0.043,0,0.086-0.005,0.129-0.017l7.724-2.069l2.463,1.422l-2.627,0.704c-0.267,0.071-0.424,0.346-0.354,0.612 c0.061,0.224,0.264,0.371,0.481,0.371c0.043,0,0.086-0.005,0.132-0.017l3.592-0.963l2.46,1.42l-2.459,1.42l-3.596-0.962 c-0.262-0.072-0.538,0.087-0.61,0.354c-0.07,0.267,0.087,0.541,0.354,0.61l2.627,0.705l-2.465,1.422l-7.723-2.067 c-0.261-0.069-0.54,0.086-0.611,0.354c-0.073,0.268,0.086,0.541,0.354,0.61l6.757,1.812l-3.02,1.742l-2.946-0.789 c-0.269-0.072-0.54,0.086-0.613,0.354c-0.07,0.268,0.087,0.541,0.354,0.611l1.982,0.531L2.5,25.287 c-0.237,0.139-0.319,0.443-0.183,0.684c0.093,0.16,0.261,0.25,0.433,0.25c0.086,0,0.172-0.021,0.25-0.066l2.197-1.27l-0.531,1.98 c-0.069,0.268,0.088,0.541,0.354,0.611c0.043,0.012,0.086,0.018,0.129,0.018c0.222,0,0.423-0.146,0.482-0.371l0.789-2.947 l3.018-1.74l-1.812,6.754c-0.069,0.269,0.088,0.541,0.354,0.611c0.044,0.014,0.087,0.018,0.13,0.018 c0.221,0,0.424-0.146,0.481-0.371l2.068-7.721l2.465-1.424l-0.703,2.627c-0.069,0.268,0.088,0.541,0.354,0.611 c0.043,0.012,0.086,0.018,0.129,0.018c0.222,0,0.423-0.146,0.483-0.371l0.962-3.592l2.459-1.42v2.838l-2.63,2.631 c-0.195,0.194-0.195,0.512,0,0.707c0.194,0.194,0.512,0.194,0.707,0l1.926-1.918v2.846l-5.652,5.654 c-0.195,0.194-0.195,0.512,0,0.707c0.195,0.194,0.512,0.194,0.707,0l4.945-4.947v3.484l-2.158,2.157 c-0.195,0.194-0.195,0.513,0,0.707s0.512,0.194,0.707,0l1.451-1.451v2.537c0,0.274,0.225,0.5,0.5,0.5c0.274,0,0.5-0.226,0.5-0.5 v-2.537l1.451,1.451c0.098,0.099,0.226,0.146,0.354,0.146c0.129,0,0.256-0.049,0.354-0.146c0.193-0.194,0.193-0.513,0-0.707 l-2.159-2.157v-3.484l4.944,4.947c0.099,0.098,0.227,0.146,0.354,0.146c0.129,0,0.256-0.05,0.354-0.146 c0.195-0.195,0.195-0.513,0-0.707l-5.651-5.654v-2.846l1.923,1.924c0.099,0.098,0.226,0.146,0.354,0.146 c0.127,0,0.257-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707l-2.631-2.631v-2.84l2.459,1.42l0.962,3.592 c0.062,0.225,0.263,0.371,0.482,0.371c0.041,0,0.087-0.004,0.13-0.017c0.268-0.071,0.426-0.347,0.354-0.612l-0.703-2.625 l2.463,1.422l2.068,7.723c0.061,0.223,0.264,0.369,0.483,0.369c0.043,0,0.086-0.004,0.13-0.016 c0.268-0.072,0.425-0.347,0.354-0.613l-1.812-6.756l3.021,1.744l0.789,2.946c0.062,0.224,0.262,0.371,0.482,0.371 c0.042,0,0.086-0.006,0.129-0.019c0.268-0.069,0.426-0.346,0.354-0.61l-0.529-1.981l2.195,1.27c0.08,0.045,0.166,0.066,0.25,0.066 c0.172,0,0.342-0.088,0.435-0.25c0.139-0.238,0.057-0.545-0.185-0.683l-2.195-1.271l1.98-0.531c0.268-0.069,0.426-0.346,0.354-0.61 c-0.072-0.269-0.344-0.426-0.613-0.354l-2.946,0.791l-3.02-1.744l6.757-1.809c0.269-0.072,0.427-0.347,0.354-0.613 C32.726,18.882,32.452,18.725,32.186,18.794z"
 ];
 
+var backgrounds = [
+  "landscape_1.jpg",
+  "landscape_2.jpg",
+  "landscape_3.jpg",
+  "landscape_4.jpg"
+];
+
+// General function that generate an arbitrary number in a range.
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
@@ -12,7 +20,8 @@ var width = screen.width,
     height = screen.height,
     snowflakes_per_second = 3,
     seconds = 1000,
-    sequential_id = 0 ;
+    sequential_id = 0, // every element can have a unique id with this variable.
+    change_background_timer = 60000;
 
 var svg_container = d3.select("body")
     .append("svg")
@@ -20,35 +29,35 @@ var svg_container = d3.select("body")
     .attr("height", height);
 
 svg_container.append("svg:image") // Append background
-    .attr("href", "http://localhost/infovis/imgs/landscape_1.jpg")
+    .attr("href", "imgs/landscape_1.jpg")
     .attr("preserveAspectRatio", "none")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .classed("old_background", true);
 
-var generate_snowflakes = function(n){
+var generate_snowflakes = function(n){  // function that generate n snowflakes.
+
     return d3.range(n).map(function() {
 
         sequential_id += 1;
 
-        var cx = getRandomArbitrary(0, width); //Math.random() * width;
-        var cy = -10 ;//getRandomArbitrary(13, 20) * -1 ; // initialize y with a value before the visible portion of the screen
-        var r = getRandomArbitrary(0.5, 1.2)*1.2;
+        var cx = getRandomArbitrary(0, width);
+        var cy = getRandomArbitrary(30, 50) * -1; // initialize y with a value before the visible portion of the screen
+        var r = getRandomArbitrary(0.5, 1.2)*1.2; // the radius of the snowflake -> this value influences the movement of the snowflake (horizontally and vertically)
 
 
-        var dy =  9.8*r;
-        var dx =  getRandomArbitrary(2.5*r, 5*r) ;
-        var rotation = getRandomArbitrary(0, 360);
+        var dy =  9.8*r;    // how fast the snowflake fall
+        var dx =  getRandomArbitrary(2.5*r, 5*r) ;  // range for the horizontal movement
+        var rotation = getRandomArbitrary(0, 360);  // assign a random rotation to the snowflake
         var spin = getRandomArbitrary(-10, 10);
-        var shape = Math.floor(getRandomArbitrary(0,2));
+        var shape = Math.floor(getRandomArbitrary(0,snowflake_shapes.length-1)); // get one of the 3 available silhouette for the snowflake.
 
         var max_horizontal_movement = getRandomArbitrary(30, 200);
         var max_horizontal_cx = cx + max_horizontal_movement;
         var min_horizontal_cx = cx - max_horizontal_movement;
         var max_vertical_cy = height - dy;
 
-        console.log(dy);
-
-        if( max_horizontal_cx > width ){
+        if( max_horizontal_cx > width ){    // reassign the horizontal range in case of overflow
             var delta = max_horizontal_cx - width;
             max_horizontal_cx += -delta - 50;
         }
@@ -98,19 +107,39 @@ setInterval(function() {
         .attr("fill", "white");
 
 }, seconds);
-//
-d3.timer(function(time){
+
+// change the background image every x seconds (default 1 min).
+setInterval( function(time){
+    var new_background = backgrounds[Math.floor(getRandomArbitrary(0,backgrounds.length-1))];
+    svg_container.select("image.old_background")
+        .clone()
+        .classed("new_background",true)
+        .classed("old_background",false)
+        .style('opacity',0)
+        .attr("href", "imgs/"+new_background)
+        .transition()
+        .duration(2000)
+        .ease(d3.easeLinear)
+        .style("opacity", 1)
+        .on("end", function(d){
+            svg_container.select("image.old_background").remove();
+            d3.select(this).classed("old_background", true);
+        });
+
+}, change_background_timer);
+
+
+d3.timer(function(time){    // move the snowflakes
     svg_container.selectAll("g.falling")
-        .filter(function () {
+        .filter(function () { // return only the snowflake that are not near the end of the screen
             return d3.select(this).attr("animation_state") === "1";
         })
         .transition()
-        // .duration(1)
         .ease(d3.easeLinear)
-        .attr("animation_state", "0")
+        .attr("animation_state", "0")   // reset animation status.
         .attr("transform", function (d) {
 
-            if (d.dx > 0 && d.cx + d.dx > d.max_horizontal_cx)
+            if (d.dx > 0 && d.cx + d.dx > d.max_horizontal_cx) //if the next increment is out of the range, invert
                 d.dx *= -1;
             else if (d.dx < 0 && d.cx - d.dx < d.min_horizontal_cx) {
                 d.dx *= -1;
@@ -120,8 +149,8 @@ d3.timer(function(time){
             d.cy += d.dy;
             d.rotation += d.spin;
 
-            if (d.cy >= (height - d.dy/d.r ) ) {
-                d3.select(this).classed("falling snowflake", false).classed("ending snowflake", true).attr("animation_state", "3").attr("stopped","next");
+            if (d.cy >= (height - d.dy/d.r ) ) {    // if the snowflake is near the end of the screen add a special class
+                d3.select(this).classed("falling snowflake", false).classed("ending snowflake", true).attr("animation_state", "3");
                 d.cy += -10; // - d.r*10;
                 d.cx += -d.dx;
                 d.rotation += -d.spin;
@@ -133,16 +162,17 @@ d3.timer(function(time){
             return transform;
 
         })
-        .on("end", function (d) {
-            if( d.cy + d.dy > height){
-                d3.select(this).classed("falling snowflake", false).classed("ending snowflake", true).attr("animation_state", "3").attr("stopped","next");
+        .on("end", function (d) {   // at the end of the transition
+            if( d.cy + d.dy > height){  // if the snowflake next movement overflow the height of the screen
+                // remove the "falling" class
+                d3.select(this).classed("falling snowflake", false).classed("ending snowflake", true).attr("animation_state", "3");
             }
-            else{
+            else{   // otherwise restart the transition
                 d3.select(this).attr("animation_state", "1");
             }
         });
 
-    svg_container.selectAll("g.ending")
+    svg_container.selectAll("g.ending") //
         .filter(function () {
             return d3.select(this).attr("animation_state") === "3";
         })
@@ -151,6 +181,6 @@ d3.timer(function(time){
         .attr("animation_state", "-1")
         .attr("cy", function (d){ return d.max_vertical_cy; })
         .on("end", function(d){
-            d3.select(this).classed("ending", false).attr("stopped","ended");
+            d3.select(this).classed("ending", false);
         });
 });
